@@ -1,0 +1,15 @@
+[
+  {
+    "type": "phase plot",
+    "name": "beta_nf_re",
+    "seed_count": 2,
+    "x": "beta",
+    "x_region": [5,8,15,30,60],
+    "y": "N_f",
+    "y_region": [10,100,1000,5000,10000],
+    "z": ["relative_error", "abs_error", "linf_error", "training_loss", "running_cost"],
+    "default": {
+      "lr": 1
+    }
+  }
+]
